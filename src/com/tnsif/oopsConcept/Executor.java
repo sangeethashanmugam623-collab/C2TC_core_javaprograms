@@ -1,0 +1,19 @@
+package com.tnsif.oopsConcept;
+
+public class Executor {
+
+	public static void main(String[] args) {
+		Encapsulation ED = new Encapsulation();
+		ED.setName("M S Dhoni");
+		ED.setAge(44);
+		ED.setJersyNo(7);
+		
+		System.out.println(ED);
+		
+		Executor e = new Executor();
+		System.out.println(e);
+
+
+	}
+
+}
