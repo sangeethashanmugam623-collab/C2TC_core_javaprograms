@@ -1,1 +1,12 @@
 bin/
+# Ignore compiled Java classes
+bin/
+*.class
+
+# Ignore Eclipse files
+.project
+.classpath
+.settings/
+
+# Ignore inner Git repositories
+**/.git
